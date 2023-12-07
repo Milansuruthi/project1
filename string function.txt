@@ -1,0 +1,70 @@
+
+
+print("String function")
+print("1.capital")
+print("2.swapcase")
+print("3.upper")
+print("4.check it is a string")
+print("5.length")
+print("6.lower")
+print("7.zeofill")
+print("8.split")
+print("9.Make each word first letter capital")
+print("10.replace")
+​
+while(True):
+    s=input("Enter a string:")
+    a=int(input("Enter your choice:"))
+    
+    if a==1:
+        print(str.capitalize())
+        
+    elif a==2:
+        print(str.swapcase())
+    
+    elif a==3:
+        print(str.upper())
+        
+    elif a==4:
+        print(str.isalpha())
+        
+    elif a==5:
+        print(len(str))
+        
+    elif a==6:
+        print(str.lower())
+        
+    elif a==7:
+        print(str.zfill(len(str)+4))
+        
+    elif a==8:
+        print(str.split())
+        
+    elif a==9:
+        print(str.title())
+        
+    elif a==10:
+        print(str.replace(c,b))
+        
+    else:
+        print("Ivalid number")
+        
+    str=input("DO you want to conitue,Press y or n")
+    
+    if str=="no":
+        break
+Enter a string:
+String function
+
+1.capital
+2.swapcase
+3.upper
+4.check it is string
+5.length
+6.lower
+7.zerofill
+8.split
+9.Make each word first letter capital
+10.replace
+string_function_python.txt
+Displaying string_function_python.txt.
